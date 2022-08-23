@@ -61,7 +61,7 @@
 			<?php } else { ?>
 			<p>Thanks for choosing to join UoJ. To register, please fill in your details below and click Send Details. Fields marked with an asterisk (*) are required.</p>
 			<?php } ?>
-			<form action="registration.html" method="post">
+			<form action="reginter.php" method="post">
 			<div style="width: 30em;">
 				<label for="firstName" <?php validateField( "firstName", $missingFields ) ?>>First name *</label>
 				<input type="text" name="firstName" value="<?php setValue( "firstName" ) ?>" />
